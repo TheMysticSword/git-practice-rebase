@@ -22,7 +22,7 @@ namespace MysticsItems.Items
             RotateAroundAxis rotateAroundAxis = vfxOrigin.AddComponent<RotateAroundAxis>();
             rotateAroundAxis.relativeTo = Space.Self;
             rotateAroundAxis.rotateAroundAxis = RotateAroundAxis.RotationAxis.X;
-            rotateAroundAxis.slowRotationSpeed = 30f;
+            rotateAroundAxis.slowRotationSpeed = 80f;
             rotateAroundAxis.speed = RotateAroundAxis.Speed.Slow;
             ObjectScaleCurve fadeOut = vfxOrigin.AddComponent<ObjectScaleCurve>();
             fadeOut.overallCurve = new AnimationCurve
