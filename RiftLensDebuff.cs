@@ -14,7 +14,7 @@ namespace MysticsItems.Items
             itemDef.name = "MysticsItems_RiftLensDebuff";
             SetItemTierWhenAvailable(ItemTier.NoTier);
             itemDef.canRemove = false;
-            itemDef.pickupIconSprite = Main.AssetBundle.LoadAsset<Sprite>("Assets/Items/Rift Lens Debuff/Icon.png");
+            itemDef.pickupIconSprite = Main.AssetBundle.LoadAsset<Sprite>("Assets/Items/Rift Lens Debuff/Icon 2.png");
 
             GameObject debuffedVFX = Main.AssetBundle.LoadAsset<GameObject>("Assets/Items/Rift Lens Debuff/RiftLensAfflictionVFX.prefab");
             GameObject vfxOrigin = debuffedVFX.transform.Find("Origin").gameObject;
