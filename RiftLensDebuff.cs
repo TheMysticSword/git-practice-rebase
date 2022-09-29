@@ -21,7 +21,7 @@ namespace MysticsItems.Items
             CustomTempVFXManagement.MysticsRisky2UtilsTempVFX tempVFX = debuffedVFX.AddComponent<CustomTempVFXManagement.MysticsRisky2UtilsTempVFX>();
             RotateAroundAxis rotateAroundAxis = vfxOrigin.AddComponent<RotateAroundAxis>();
             rotateAroundAxis.relativeTo = Space.Self;
-            rotateAroundAxis.rotateAroundAxis = RotateAroundAxis.RotationAxis.X;
+            rotateAroundAxis.rotateAroundAxis = RotateAroundAxis.RotationAxis.Z;
             rotateAroundAxis.slowRotationSpeed = 80f;
             rotateAroundAxis.speed = RotateAroundAxis.Speed.Slow;
             ObjectScaleCurve fadeOut = vfxOrigin.AddComponent<ObjectScaleCurve>();
